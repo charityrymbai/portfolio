@@ -1,0 +1,19 @@
+import { Link } from "react-router-dom";
+import { motion } from "motion/react"
+import NaviButton from "./NaviButton";
+
+const NavigationBar = () => {
+    return (
+        <div className="p-4 fixed w-full flex justify-center">
+            <div className=" border-2 border-gray-400 p-4 rounded-2xl w-fit flex gap-9">
+                <NaviButton goTo="home" title="Home" />
+                <NaviButton goTo="about" title="About" />
+                <NaviButton goTo="projects" title="Projects" />
+                <NaviButton goTo="certifications" title="Certifications" />
+                <NaviButton goTo="contact" title="Contact" />
+            </div>
+        </div>
+    );
+}
+
+export default NavigationBar;
