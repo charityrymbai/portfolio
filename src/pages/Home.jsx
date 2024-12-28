@@ -1,10 +1,12 @@
+import { profile } from "../../public/images";
+
 const Home = () => {
     return (
         <header className="flex items-center text-center p-6 bg-blue-100 h-screen">
             <img
                 id="profile-photo"
                 className="min-w-44 max-w-md h-auto rounded-full mb-4"
-                src="/profilePhoto.jpg"
+                src={profile}
                 alt="profile-photo"
             />
             <div className="text-left pl-4">

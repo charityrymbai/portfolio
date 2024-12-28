@@ -1,3 +1,4 @@
+import { hackerrank, iitb, isro } from "../../public/images";
 import ItemWithLink from "../components/ItemWithLink";
   
 const Certifications = () => (
@@ -5,7 +6,7 @@ const Certifications = () => (
       <h1 className="text-5xl font-bold mb-4">Certifications:</h1>
       <ul>
         <ItemWithLink
-          logos={["/iitb.png"]}
+          logo={iitb}
           link="https://drive.google.com/file/d/1lG_C4uUg0yFaCZ2WzI7Jmqk3KHnzIY0t/view"
           title="Attended Lecture Series on the Wonderful World of AI"
           details={
@@ -15,13 +16,13 @@ const Certifications = () => (
           }
         />
         <ItemWithLink
-          logos={["/hackerrank.png"]}
+          logo={hackerrank}
           link="https://drive.google.com/file/d/1UzrjGII-w7BsVYXiKp8H6HA14bTQjX0w/view"
           title="Hackerrank JavaScript Basic Certificate"
           details="Certified on 31st December 2023"
         />
         <ItemWithLink
-          logos={["/isro_logo.png"]}
+          logo={isro}
           link="https://drive.google.com/file/d/1uLULYWhrdRh3la-L_IryXA_RJgHWrJ-N/view"
           title="Course Participation: Remote Sensing & GIS for Environmental Studies"
           details={

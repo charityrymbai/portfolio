@@ -1,11 +1,9 @@
 import { ExternalLink } from 'lucide-react'
 
-const ItemWithLink = ({ logos, link, title, details }) => (
+const ItemWithLink = ({ logo, link, title, details }) => (
     <li className=" flex gap-10 text-xl items-start mb-8">
       <div className="flex items-center space-x-2 mr-4">
-        {logos.map((logo, index) => (
-          <img key={index} className="w-20 h-auto" src={logo} alt="logo" />
-        ))}
+          <img className="w-20 h-auto" src={logo} alt="logo" />
       </div>
       <div className='flex flex-row-reverse'>
         <a

@@ -4,11 +4,11 @@ const NavigationBar = () => {
     return (
         <div className="p-4 fixed w-full flex justify-center">
             <div className=" border-2 border-gray-400 p-4 rounded-2xl w-fit flex gap-9">
-                <NaviButton goTo="home" title="Home" />
-                <NaviButton goTo="about" title="About" />
-                <NaviButton goTo="projects" title="Projects" />
-                <NaviButton goTo="certifications" title="Certifications" />
-                <NaviButton goTo="contact" title="Contact" />
+                <NaviButton goTo="portfolio/home" title="Home" />
+                <NaviButton goTo="portfolio/about" title="About" />
+                <NaviButton goTo="portfolio/projects" title="Projects" />
+                <NaviButton goTo="portfolio/certifications" title="Certifications" />
+                <NaviButton goTo="portfolio/contact" title="Contact" />
             </div>
         </div>
     );
