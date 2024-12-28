@@ -2,7 +2,7 @@ import { hackerrank, iitb, isro } from "../../public/images";
 import ItemWithLink from "../components/ItemWithLink";
   
 const Certifications = () => (
-    <div className="pt-[150px] sm:pt-0 flex flex-col items-center justify-center gap-6 text-left p-6 bg-white h-screen">
+    <div className="pt-[100px] flex flex-col items-center gap-6 text-left p-6 bg-white h-screen">
       <h1 className="text-2xl sm:text-5xl font-bold mb-4">Certifications:</h1>
       <ul>
         <ItemWithLink

@@ -2,7 +2,7 @@ import { camlLogo, schoolLogo } from "../../public/images";
 import ItemWithLink from "../components/ItemWithLink";
   
 const Projects = () => (
-    <div className="pt-[500px] sm:pt-[400px]  flex flex-col items-center justify-center gap-6 text-left p-6 bg-white h-screen">
+    <div className="pt-[100px]  flex flex-col items-center gap-6 text-left p-6 bg-white h-screen">
       <h1 className="text-2xl sm:text-5xl font-bold mb-4">Projects:</h1>
       <ul>
         <ItemWithLink
