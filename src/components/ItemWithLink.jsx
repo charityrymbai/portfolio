@@ -5,18 +5,19 @@ const ItemWithLink = ({ logo, link, title, details }) => (
       <div className="flex items-center space-x-2 mr-4">
           <img className="w-20 h-auto" src={logo} alt="logo" />
       </div>
-      <div className='flex flex-row-reverse'>
+      <div>
         <a
           href={link}
           target="_blank"
           className="text-blue-500 hover:underline"
         >
-        <div className='flex justify-end gap-2'>
+        <div className='flex gap-2'>
           <h3 className="font-semibold">{title}</h3>
           <ExternalLink />
         </div>
-          <p className="text-gray-600 mt-1">{details}</p>
         </a>
+          <p className="text-gray-600 mt-1 w-[600px]">{details}</p>
+        
       </div>
     </li>
   );
