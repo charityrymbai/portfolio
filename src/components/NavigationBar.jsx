@@ -8,7 +8,6 @@ const NavigationBar = () => {
                 <NaviButton goTo="portfolio/about" title="About" />
                 <NaviButton goTo="portfolio/projects" title="Projects" />
                 <NaviButton goTo="portfolio/certifications" title="Certifications" />
-                <NaviButton goTo="portfolio/contact" title="Contact" />
             </div>
         </div>
     );

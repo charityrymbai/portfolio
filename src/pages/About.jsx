@@ -2,8 +2,8 @@ import { NITMLogo, schoolLogo, stEdmundsLogo } from "../../public/images";
 import ItemWithoutLink from "../components/ItemWithoutLink";
   
 const About = () => (
-    <div className="flex flex-col items-center justify-center gap-6 text-left p-6 bg-white h-screen">
-      <h1 className="text-5xl font-bold mb-4">Education:</h1>
+    <div className="pt-[100px] sm:pt-0 flex flex-col items-center justify-center gap-6 text-left p-6 bg-white h-screen">
+      <h1 className="text-2xl sm:text-5xl font-bold mb-4">Education:</h1>
       <ul>
         <ItemWithoutLink
           logo={NITMLogo}
