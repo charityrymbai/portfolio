@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import { motion } from "motion/react"
 import NaviButton from "./NaviButton";
 
 const NavigationBar = () => {
